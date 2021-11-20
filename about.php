@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="image-section">
-                    <img src="/uogz.png" alt="Error while loading an image">
+                    <img src="/uogz.PNG" alt="Error while loading an image">
                 </div>
             </div>
         </div>
