@@ -10,7 +10,7 @@
         header('Location: /profile.php');
     }
 
-    require_once('./vendor/connect.php');
+    require_once('./connect.php');
     require('navigation.php');
     
     $sql = "SELECT * FROM `users` ORDER BY `name`";

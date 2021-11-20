@@ -6,7 +6,7 @@
         header('Location: /login.php');
     }
     require('navigation.php');
-    require_once('vendor/query_services.php');
+    require_once('/query_services.php');
 ?>
 
 <!DOCTYPE html>

@@ -19,7 +19,7 @@
     <body>
         <div class="forms">
             <!-- Registration Form -->
-            <form action="/vendor/signup.php" method="POST">
+            <form action="/signup.php" method="POST">
                 <label for="name">Name</label>
                 <input type="text" id="name" placeholder="Name" name="name" required>
 

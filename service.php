@@ -8,7 +8,7 @@
     if (isset($_GET['service'])) {
         $service = $_GET['service'];
     }
-    require_once('./vendor/connect.php');
+    require_once('./connect.php');
     require('navigation.php');
 
     $sql = "SELECT * FROM `services` WHERE `id` = $service";

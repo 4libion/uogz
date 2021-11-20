@@ -19,7 +19,7 @@
     <body>
         <!-- Authorization Form -->
         <div class="forms">
-            <form action="/vendor/signin.php" method="POST">
+            <form action="/signin.php" method="POST">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Email">
                 <label for="password">Password</label>

@@ -9,7 +9,7 @@
         $service = $_GET['service'];
     }
 
-    require_once('./vendor/connect.php');
+    require_once('./connect.php');
     require('navigation.php');
 
     $sql = "SELECT * FROM `services` WHERE `id` = $service";
@@ -28,7 +28,7 @@
 <body>
     <div class="section">
         <div class="placer">
-            <form class="order" action="vendor/order.php" method="POST">
+            <form class="order" action="/ordering.php" method="POST">
                 <div class="item">
                     <label for="plan">Your Name:</label>
                     <p id="plan"><?= $_SESSION['user']['name'] ?></p>

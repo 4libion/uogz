@@ -20,7 +20,7 @@
                 ?>
                 <li><a href="/services.php">Services</a></li>
                 <li><a href="/about.php">About</a></li>
-                <li><a href="/vendor/logout.php">Logout</a></li>
+                <li><a href="/logout.php">Logout</a></li>
             </ul>
         </nav>
     </div>
