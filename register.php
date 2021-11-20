@@ -38,7 +38,7 @@
                 <button type="submit">Sign Up</button>
                 
                 <p>
-                    Already have an account? - <a href="/login.php">Sign in!</a>
+                    Already have an account? - <a href="/index.php">Sign in!</a>
                 </p>
                 <?php
                     if (isset($_SESSION['message'])) {

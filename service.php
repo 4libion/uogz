@@ -3,7 +3,7 @@
 
     if (!$_SESSION['user']) {
         $_SESSION['message'] = 'You need to sign in!';
-        header('Location: /login.php');
+        header('Location: /index.php');
     }
     if (isset($_GET['service'])) {
         $service = $_GET['service'];

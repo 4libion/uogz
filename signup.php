@@ -15,9 +15,9 @@
             VALUES('$name', '$email', '$phone', '$password')");
         
         $_SESSION['message'] = 'You have successfully signed up!';
-        header('Location: ../login.php');
+        header('Location: ./index.php');
     } else {
         $_SESSION['message'] = 'Passwords should match!';
-        header('Location: ../register.php');
+        header('Location: ./register.php');
     }
 ?>

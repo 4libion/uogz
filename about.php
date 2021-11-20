@@ -3,7 +3,7 @@
 
     if (!$_SESSION['user']) {
         $_SESSION['message'] = 'You need to sign in!';
-        header('Location: /login.php');
+        header('Location: /index.php');
     }
 
     require('navigation.php');

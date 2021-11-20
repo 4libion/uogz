@@ -17,12 +17,12 @@
             'status' => $user['status']
         ];
         $_SESSION['title'] = 'Profile';
-        header('Location: ../about.php');
+        header('Location: ./about.php');
 
         // OK
     } else {
         $_SESSION['message'] = 'Email or password is incorrect!';
         $_SESSION['title'] = 'Login';
-        header('Location: ../login.php');
+        header('Location: ./index.php');
     }
 ?>
