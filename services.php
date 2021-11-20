@@ -60,6 +60,6 @@
                 </div>
             </div>
         </div>
-        <script src="/assets/js/clipboard.js"></script>
+        <script src="/clipboard.js"></script>
     </body>
 </html>

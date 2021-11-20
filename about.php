@@ -54,11 +54,11 @@
                     </div>
                 </div>
                 <div class="image-section">
-                    <img src="assets/images/uogz.png" alt="Error while loading an image">
+                    <img src="/uogz.png" alt="Error while loading an image">
                 </div>
             </div>
         </div>
-        <script src="/assets/js/clipboard.js"></script>
+        <script src="/clipboard.js"></script>
     </body>
     <?php
         require('footer.php');

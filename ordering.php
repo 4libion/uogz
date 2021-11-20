@@ -12,5 +12,5 @@
     $_SESSION['service_id'] = $service_id;
     $_SESSION['message'] = '' .$_SESSION['user']['name']. ', thank you for your trust! Your order is registered. Soon, our managers should call you';
     
-    header('Location: ../profile.php');
+    header('Location: ./profile.php');
 ?>

@@ -31,6 +31,6 @@
         <?php
             require('footer.php');
         ?>
-        <script src="/assets/js/clipboard.js"></script>
+        <script src="/clipboard.js"></script>
     </body>
 </html>

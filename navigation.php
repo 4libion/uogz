@@ -24,5 +24,4 @@
             </ul>
         </nav>
     </div>
-    <script src="/assets/js/clipboard.js"></script>
 </body>
