@@ -6,7 +6,7 @@
         header('Location: /index.php');
     }
     require('navigation.php');
-    require_once('/query_services.php');
+    require_once('./query_services.php');
 ?>
 
 <!DOCTYPE html>
