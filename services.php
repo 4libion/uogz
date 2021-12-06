@@ -21,7 +21,7 @@
                 background-color: #dddddd;
             }
             <?php
-            for ($i = 0; $i < $row_num; $i = $i + 1) {
+            for ($i = 0; $i < $row_num; $i++) {
                 echo
                 '.boxes .box:nth-child('. $services[$i][0] .') a {
                     background: '. $services[$i][5] .';
@@ -48,6 +48,7 @@
                     <?php
                         for ($i = 0; $i < $row_num; $i++) {
                             echo '<div class="box">
+                                    <p>' . $services[$i][0] . '</p>
                                     <div class="icon">'. $services[$i][0] .'</div>
                                     <div class="content">
                                         <h3>' . $services[$i][1] . '</h3>
